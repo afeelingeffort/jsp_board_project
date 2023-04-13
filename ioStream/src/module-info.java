@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author MJ
+ *
+ */
+module ioStream {
+}
