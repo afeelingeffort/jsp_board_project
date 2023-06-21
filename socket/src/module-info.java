@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author MJ
- *
- */
-module socket {
-}
