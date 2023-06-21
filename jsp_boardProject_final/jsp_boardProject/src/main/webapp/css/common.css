@@ -1,0 +1,94 @@
+@charset "EUC-KR";
+
+@import
+	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400&display=swap')
+	;
+
+@import
+	url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap")
+	;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 a{
+	display: flex;
+	justify-content: center;
+}
+header ul li{
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul{
+	align-items: center;
+}
+
+
+
+h1 {
+	font-size: 40px;
+	padding: 30px;
+	margin-right: 50px;
+}
+
+ul {
+	display: flex;
+	padding: 30px;
+	list-style: none;
+}
+
+ul li {
+	margin-right: 15px;
+}
+
+ul li a {
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	font-size: 25px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li a:hover {
+	background-color: black;
+	color: white;
+}
+
+main {
+	height: auto;
+	display: flex;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer pre a {
+	text-decoration: none;
+	color: black;
+}
+
+footer pre a:hover {
+	text-decoration: underline;
+}
